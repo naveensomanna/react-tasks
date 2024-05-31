@@ -1,0 +1,45 @@
+
+.comments{
+  list-style-type: none;
+  .comment{
+    margin-left: 10px;
+    margin-bottom: 10px;
+   a{
+    color:blueviolet;
+    padding: 10px;
+    cursor: pointer;
+    margin: 5px 0;
+    display: inline-block;
+   }
+ 
+   li{
+    background-color: aliceblue;
+    padding:5px 10px;
+    display: flex;
+    justify-content: space-between;
+    .user-detail{
+      display: flex;
+      gap:1rem;
+      margin-top: 1rem;
+    }
+    .reply{
+      font-size: 0.875rem;
+      cursor: pointer;
+     
+     }
+    .profile{ 
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      color:black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.5rem;
+    }
+    h3{
+      margin: 5px 0;
+    }
+   }
+  }
+}
